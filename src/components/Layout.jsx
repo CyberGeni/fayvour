@@ -1,7 +1,9 @@
+/* eslint-disable react-refresh/only-export-components */
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
-function Layout() {
+
+const Layout = () => {
   return (
     <>
       <div>
@@ -11,6 +13,6 @@ function Layout() {
       </div>
     </>
   );
-}
+};
 
 export default Layout;
