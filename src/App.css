@@ -1,3 +1,6 @@
+* {
+    overflow-x: hidden;
+}
 .marquee-container {
     border: 1px solid #cccccc;
 }

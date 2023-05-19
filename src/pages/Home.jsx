@@ -3,8 +3,8 @@ import cta from "../assets/see-my-work.svg";
 import "../App.css";
 function Home() {
   return (
-    <div className="bg-[#EBEAED] flex justify-start  flex-col h-[90vh] relative top-0 overflow-x-hidden overflow-y-hidden">
-      <div className="bg-white grid mt-16 h-[60vh] nd:h-fit relative -left-[5vw] pl-[5vw] w-[110vw] rotate-[-5deg]">
+    <div className=" bg-[#EBEAED] flex justify-start  flex-col h-[90vh] relative top-0">
+      <div className="bg-white grid mt-16 h-[60vh] relative -left-[5vw] pl-[5vw] w-[110vw] rotate-[-5deg] overflow-hidden">
         {/* main content */}
         <Marquee />
         <div className=" px-[5%] sm:px-[7.5%] md:px-[10%] font-circular rotate-[5deg] grid grid-cols-1 sm:grid-cols-2 ">
