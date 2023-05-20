@@ -2,6 +2,7 @@ import Marquee from "../components/Marquee";
 import cta from "../assets/see-my-work.svg";
 import "../App.css";
 import Projects from "../components/Projects";
+import CustomCursor from "../components/CustomCursor";
 
 function Home() {
   return (
@@ -43,6 +44,7 @@ function Home() {
         <h1 className="font-athletics text-center text-9xl sm:text-[140px] md:text-[200px] lg:text-[240px] my-20 md:my-32 overflow-hidden">Work.</h1>
         <Projects />
       </section>
+      <CustomCursor />
     </>
   );
 }
