@@ -65,7 +65,7 @@ function Marqueee() {
         <circle cx="5.88574" cy="5.73508" r="5" fill="#434343" />
       </svg>
 
-      <span>superheroes of the users</span>
+      <span>superheroe of the users</span>
       <svg
         width="12"
         height="12"
@@ -103,7 +103,7 @@ function Marqueee() {
         />
       </svg>
 
-      <span>superheroes of the users</span>
+      <span>superheroe of the users</span>
       <svg
         width="11"
         height="11"
