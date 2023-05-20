@@ -1,7 +1,8 @@
 import Marquee from "../components/Marquee";
 import cta from "../assets/see-my-work.svg";
 import "../App.css";
-import projects from "../projects";
+import Projects from "../components/Projects";
+
 function Home() {
   return (
     <>
@@ -24,9 +25,9 @@ function Home() {
             {/* button area */}
             {/* <div className="mx-auto my-auto bg-[#1D2939] rounded-full text-white w-24 h-24">SEE MY WORK </div>
              */}
-            <div className="relative right-[5vw]">
+            <div className="relative right-[5vw] ">
               <img
-                className="hover:scale-105 transition-transform mx-auto"
+                className="hover:scale-105 transition-transform mx-auto md:mr-0 "
                 src={cta}
                 alt=""
               />
@@ -40,27 +41,7 @@ function Home() {
       {/* work area */}
       <section id="work" className="bg-[#101828] text-[#B5B5B5]/5 overflow-y-hidden">
         <h1 className="font-athletics text-center text-9xl sm:text-[140px] md:text-[200px] lg:text-[240px] my-20 md:my-32 overflow-hidden">Work.</h1>
-        <div className="px-[5%] sm:px-[7.5%] md:px-[10%]">
-            {projects.map((project) => (
-              <div key={project.id} className="border-[#475467] border-t py-6 md:py-10 lg:py-12">
-                <a href="" className="grid grid-cols-1 sm:grid-cols-3 gap-y-4">
-                  <div className="col-span-2 space-y-3 md:space-y-5">
-                    <h1 className="text-[#EBEAED] font-medium font-circular text-4xl md:text-5xl">{project.name}</h1>
-                    <p className="text-[#D0D5DD]/80 text-lg sm:text-xl md:text-2xl font-athletics">{project.description}</p>
-                    <div className="flex space-x-3">
-                      {project.tags.map((tag) => (
-                        <span key={tag} className="text-[#475467] font-athletics px-2 py-1 border border-[#475467] rounded-full bg-transparent h-fit whitespace-nowrap text-sm md:text-base">{tag}</span>
-                      ))}
-                    </div>
-                    <p className="text-[#D0D5DD] text-lg sm:text-xl md:text-2xl font-athletics">{project.year}</p>
-                  </div>
-                  <div className="col-span-1 order-first sm:order-none">
-                    <img src={project.image} alt="" />
-                  </div>
-                </a>
-              </div>  
-            ))}
-        </div>
+        <Projects />
       </section>
     </>
   );
