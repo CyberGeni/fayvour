@@ -1,4 +1,3 @@
-import React from 'react'
 import Marquee from "react-fast-marquee";
 
 function Marqueee() {
@@ -65,7 +64,7 @@ function Marqueee() {
         <circle cx="5.88574" cy="5.73508" r="5" fill="#434343" />
       </svg>
 
-      <span>superheroe of the users</span>
+      <span>superhero of the users</span>
       <svg
         width="12"
         height="12"
@@ -103,7 +102,7 @@ function Marqueee() {
         />
       </svg>
 
-      <span>superheroe of the users</span>
+      <span>superhero of the users</span>
       <svg
         width="11"
         height="11"

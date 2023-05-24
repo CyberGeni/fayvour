@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import projects from "../projects";
 
 function Projects() {
@@ -22,7 +22,7 @@ function Projects() {
           onMouseLeave={handleMouseLeave}
           className="border-[#475467] h-fit border-t py-6 md:py-10 lg:py-12"
         >
-          <a href="" className="grid grid-cols-1 sm:grid-cols-3 gap-y-4">
+          <a href={project.link} className="grid grid-cols-1 sm:grid-cols-3 gap-y-4">
             <div className={`col-span-2 ${activeIndex === index ? "col-span-2" : "col-span-3"}`}>
               <h1 className="text-[#EBEAED] font-medium font-circular text-4xl md:text-5xl">
                 {project.name}
