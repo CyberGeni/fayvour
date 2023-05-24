@@ -6,3 +6,18 @@
 .marquee-container {
     border: 1px solid #cccccc;
 }
+.text-container {
+    opacity: 1;
+    animation: scale 200ms ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: top center;
+  }
+@keyframes scale {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+}
+  
