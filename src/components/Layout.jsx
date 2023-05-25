@@ -94,8 +94,8 @@ tl.fromTo(
         <Navbar />
         <Outlet />
         <Footer />
-        <CustomCursor />
       </div>
+      <CustomCursor />
     </>
   );
 };
