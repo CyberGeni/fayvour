@@ -1,7 +1,7 @@
 * {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  cursor: none;
+  /* cursor: none; */
 }
 .marquee-container {
   border: 1px solid #cccccc;
