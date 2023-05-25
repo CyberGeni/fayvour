@@ -46,10 +46,11 @@ const CustomCursor = () => {
         }`}
       >
         {isHoveringLink && (
-          <div className={`w-20 h-20 text-container bg-[#ebeaed]/70 rounded-full flex items-center justify-center text-center overflow-hidden 
-          ${isHoveringLink ? "" : ""}
+          <div className={`w-24 h-24  bg-[#ebeaed]/75 rounded-full flex flex-col items-center justify-center text-center overflow-hidden 
+          ${isHoveringLink ? "text-container" : ""}
           `}>
-            <span className="text-xs font-athletics font-semibold uppercase text-center leading-snug">View project</span>
+            <span className="text-sm font-athletics font-semibold uppercase text-center leading-snug">View <br /> project</span>
+            <svg className="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path></svg>
           </div>
         )}
       </div>

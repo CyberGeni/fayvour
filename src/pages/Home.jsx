@@ -29,7 +29,7 @@ function Home() {
              */}
             <div className="relative right-[5vw] ">
               <img
-                className="hover:scale-105 transition-transform mx-auto md:mr-0 "
+                className="w-fit h-fit hover:scale-105 transition-transform mx-auto md:mr-0 "
                 src={cta}
                 alt=""
               />
