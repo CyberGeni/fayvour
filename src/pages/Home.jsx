@@ -2,9 +2,14 @@ import Marquee from "../components/Marquee";
 import cta from "../assets/see-my-work.svg";
 import "../App.css";
 import Projects from "../components/Projects";
-// import CustomCursor from "../components/CustomCursor";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+// import SplitType from 'split-type'
+// import { gsap } from "gsap";
 function Home() {
+
 
   return (
     <>
@@ -27,13 +32,13 @@ function Home() {
             {/* button area */}
             {/* <div className="mx-auto my-auto bg-[#1D2939] rounded-full text-white w-24 h-24">SEE MY WORK </div>
              */}
-            <div className="relative right-[5vw] ">
+            <a href="#work" className="relative right-[5vw] ">
               <img
                 className="w-fit h-fit hover:scale-105 transition-transform mx-auto md:mr-0 "
                 src={cta}
                 alt=""
               />
-            </div>
+            </a>
 
             {/* work area */}
           </div>
@@ -41,8 +46,13 @@ function Home() {
       </div>
 
       {/* work area */}
-      <section id="work" className="bg-[#101828] text-[#B5B5B5]/5 overflow-y-hidden">
-        <h1 className="font-athletics text-center text-9xl sm:text-[140px] md:text-[200px] lg:text-[240px] my-20 md:my-32 overflow-hidden">Work.</h1>
+      <section
+        id="work"
+        className="bg-[#101828] text-[#B5B5B5]/5 overflow-y-hidden"
+      >
+        <h1 data-aos="fade-in" id="work-text" className="opacity translate-y-24 transition-all font-athletics text-center text-9xl sm:text-[140px] md:text-[200px] lg:text-[240px] my-20 md:my-32 overflow-hidden">
+          Work.
+        </h1>
         <Projects />
       </section>
     </>

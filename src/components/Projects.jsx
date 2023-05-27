@@ -22,7 +22,7 @@ function Projects() {
           onMouseLeave={handleMouseLeave}
           className="project-link  border-[#475467] h-fit border-t py-6 md:py-10 lg:py-12"
         >
-          <a href={project.link} target="_blank" rel="noreferrer" className="project-link grid grid-cols-1 sm:grid-cols-3 gap-y-4">
+          <a data-aos="fade-in" data-aos-delay="50" href={project.link} target="_blank" rel="noreferrer" className="project-link grid grid-cols-1 sm:grid-cols-3 gap-y-4">
             <div className={`project-link col-span-2 ${activeIndex === index ? "col-span-2" : "col-span-3"}`}>
               <h1 className="project-link text-[#EBEAED] font-medium font-circular text-4xl md:text-5xl">
                 {project.name}
@@ -43,7 +43,7 @@ function Projects() {
                       className="project-link text-[#475467] font-athletics flex items-center px-2 py-1 border border-[#475467] rounded-full bg-transparent h-fit whitespace-nowrap text-sm md:text-base"
                     >
                         {tag === "Live" && (
-                            <div className="w-3 h-3 bg-current rounded-full mr-1"></div>
+                            <div className="animate-pulse w-3 h-3 bg-current rounded-full mr-1"></div>
 
                         )}
                       {tag}

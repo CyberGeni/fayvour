@@ -10,13 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "framer-motion": "^10.12.12",
     "gsap": "^3.11.5",
     "mouse-follower": "^1.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.5.2",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "split-type": "^0.3.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

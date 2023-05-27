@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <footer className="space-y-3 sm:space-y-4 md:space-y-6 font-circular bg-[#EBEAED] px-[5%] sm:px-[7.5%] md:px-[10%] py-12 sm:py-14 md:py-20">
+    <footer className="space-y-3 sm:space-y-4 md:space-y-6 font-circular bg-[#EBEAED] px-[5%] sm:px-[7.5%] md:px-[10%] py-12 sm:py-14 md:py-20 lg:py-24">
       <h1 className="text-[#98A2B3] font-circular text-4xl sm:text-5xl md:text-6xl font-medium">Let’s talk about you.</h1>
-      <p className="text-[#475467]">Got that stellar idea that could make you a fortune and could actually solve people&apos;s problems? Or you&apos;re a fun, growing team and looking for the next creative superhero to join the band? I&apos;m your guy.</p>
+      <p className="text-[#475467] max-w-3xl">Got that stellar idea that could make you a fortune and could actually solve people&apos;s problems? Or you&apos;re a fun, growing team and looking for the next creative superhero to join the band? I&apos;m your guy.</p>
       <a className="text-[#475467] underline my-3 md:my-4 block" href="mailto:fayvouraj@gmail.com">Email me</a>
       <div className="font-athletics text-[#667085] space-x-4 underline">
         <a href="https://twitter.com/fayvouraj" target="_blank" rel="noopener noreferrer">Twitter</a>
