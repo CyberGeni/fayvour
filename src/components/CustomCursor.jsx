@@ -36,7 +36,7 @@ const CustomCursor = () => {
 
   return (
     <div className="">
-      <div
+      <motion.div
         ref={follower}
         id="follower"
         className={`w-4 h-4 border-2 border-[#101828] pointer-events-none fixed top-0 left-0 rounded-full overflow-hidden ${
@@ -66,7 +66,7 @@ const CustomCursor = () => {
             </motion.div>
           )}
         </AnimatePresence>
-      </div>
+      </motion.div>
       {/* Content of the component */}
     </div>
   );
