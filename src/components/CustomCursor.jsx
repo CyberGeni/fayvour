@@ -39,10 +39,10 @@ const CustomCursor = () => {
       <motion.div
         ref={follower}
         id="follower"
-        className={`flex justify-center w-4 h-4 border-2 border-[#101828] bg-[#ebeaed] pointer-events-none fixed top-0 left-0 rounded-full overflow-hidden ${
+        className={`hidden sm:flex justify-center w-4 h-4 border-2 border-[#101828] bg-[#ebeaed] pointer-events-none fixed top-0 left-0 rounded-full overflow-hidden ${
           isHoveringLink ? "border-none" : ""
         }`}
-        animate={{ width: isHoveringLink ? 96 : 16, height: isHoveringLink ? 96 : 16, backgroundColor: isHoveringLink ? "#EBEAED" : "#EBEAED" }}
+        animate={{ width: isHoveringLink ? 96 : 16, height: isHoveringLink ? 96 : 16, backgroundColor: isHoveringLink ? "#EBEAED" : "#EBEAED", opacity: isHoveringLink ? 0.8 : 1 }}
       >
         <AnimatePresence>
           {isHoveringLink && (

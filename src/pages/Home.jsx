@@ -32,7 +32,7 @@ function Home() {
              */}
             <a href="#work" className="relative right-[5vw] ">
               <img
-                className="w-fit h-fit hover:scale-105 hover:rotate-180 hover:duration-700 transition-transform mx-auto md:mr-0 "
+                className="w-fit h-fit hover:scale-110 hover:rotate-180 hover:duration-700 transition-transform mx-auto md:mr-0 "
                 src={cta}
                 alt=""
               />
