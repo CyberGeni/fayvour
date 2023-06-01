@@ -3,13 +3,11 @@ import cta from "../assets/see-my-work.svg";
 import "../App.css";
 import Projects from "../components/Projects";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
-// import SplitType from 'split-type'
-// import { gsap } from "gsap";
-function Home() {
+import 'aos/dist/aos.css'; 
 
+AOS.init();
+
+function Home() {
 
   return (
     <>
@@ -34,13 +32,11 @@ function Home() {
              */}
             <a href="#work" className="relative right-[5vw] ">
               <img
-                className="w-fit h-fit hover:scale-105 transition-transform mx-auto md:mr-0 "
+                className="w-fit h-fit hover:scale-105 hover:rotate-180 hover:duration-700 transition-transform mx-auto md:mr-0 "
                 src={cta}
                 alt=""
               />
             </a>
-
-            {/* work area */}
           </div>
         </div>
       </div>
