@@ -54,7 +54,7 @@ const projects = [
     {
         id: 6,
         name: 'lyrics and karaoke',
-        description: 'This was before Spotify released theirs. Mafejopami.',
+        description: 'This was before Spotify released theirs.',
         link: 'https://fayvour.notion.site/Spotify-Lyrics-and-Karaoke-b9d497f8179c4b8e8b476d1313f2c75a',
         tags: ['App', 'Media', 'Case Study'],
         year: 2021, 
